@@ -1,0 +1,3 @@
+El juego consiste en colocar las cartas en orden antes que se acabe el tiempo
+siendo este bastante corto, así que es necesario aprovechar diversas maneras para
+poder ganar ... además se puede adivinar la lógica del juego aprovechando bugs.

@@ -1,0 +1,5 @@
+Bienvenido a este juego de cartas
+
+1) Para poder activar las cartas colocar el puntero encima
+2) Arrastrar la carta con el puntero hasta la posición colocándolas en orden
+3) Colocar rápidamente las cartas antes que se acabe el tiempo

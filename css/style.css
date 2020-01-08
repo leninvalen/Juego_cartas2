@@ -1,0 +1,410 @@
+body
+{
+	background-color:#C0C0C0;
+}
+ul
+{
+	list-style-type:none;
+	float: left;
+}
+li
+{
+	margin: 5px;
+}
+img
+{
+	border: 1px solid #000;
+	width: 50px;
+	height: 50px;
+}
+div
+{
+	margin: auto;
+	width: 750px;
+	height: 230px;
+	border: 1px solid #000;
+	background-color: #FFFFFF;
+}
+div #as_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #as_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #as_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #as_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #dos_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #dos_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #dos_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #dos_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #tres_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #tres_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #tres_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #tres_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #cuatro_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #cuatro_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #cuatro_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #cuatro_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #cinco_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #cinco_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #cinco_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #cinco_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #seis_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #seis_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #seis_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #seis_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #siete_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #siete_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #siete_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #siete_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #ocho_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #ocho_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #ocho_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #ocho_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #nueve_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #nueve_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #nueve_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #nueve_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #diez_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #diez_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #diez_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #diez_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #j_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #j_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #j_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #j_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #q_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #q_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #q_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #q_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #k_corazon_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float:left;
+}
+div #k_corazon_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+div #k_diamante_rojo
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+div #k_trebol_negro
+{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000;
+	float: left;
+}
+
+#dos
+{
+	list-style-type:none;
+	float: right;	
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Juego 2</title>
+	<center>
+		<h1>Juego de cartas</h1>	
+		<h2>Coloca las cartas en orden lo más rápido que puedas</h2>
+	</center>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var tiempo=0;
+		setInterval(function()
+		{
+			tiempo++;
+			if(tiempo==50)
+			{
+				alert("Tiempo agotado");
+				location.reload();	
+			}
+    	},2000);
+		
+	</script>
+
+	
+	<ul>
+			<li><img src="imagen/Naipes/as_corazon_rojo.jpg" id="id_as_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/as_corazon_negro.jpg" id="id_as_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/as_diamante_rojo.jpg" id="id_as_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/as_trebol_negro.jpg" id="id_as_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/2_corazon_rojo.jpg" id="id_2_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/2_corazon_negro.jpg" id="id_2_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/2_diamante_rojo.jpg" id="id_2_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/2_trebol_negro.jpg" id="id_2_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/3_corazon_rojo.jpg" id="id_3_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/3_corazon_negro.jpg" id="id_3_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/3_diamante_rojo.jpg" id="id_3_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/3_trebol_negro.jpg" id="id_3_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/4_corazon_rojo.jpg" id="id_4_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/4_corazon_negro.jpg" id="id_4_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/4_diamante_rojo.jpg" id="id_4_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/4_trebol_negro.jpg" id="id_4_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/5_corazon_rojo.jpg" id="id_5_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/5_corazon_negro.jpg" id="id_5_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/5_diamante_rojo.jpg" id="id_5_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/5_trebol_negro.jpg" id="id_5_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/6_corazon_rojo.jpg" id="id_6_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/6_corazon_negro.jpg" id="id_6_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/6_diamante_rojo.jpg" id="id_6_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/6_trebol_negro.jpg" id="id_6_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/7_corazon_rojo.jpg" id="id_7_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/7_corazon_negro.jpg" id="id_7_corazon_negro" class="movil"></li>
+			
+	</ul>
+	<ul id="dos">
+			<li><img src="imagen/Naipes/7_diamante_rojo.jpg" id="id_7_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/7_trebol_negro.jpg" id="id_7_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/8_corazon_rojo.jpg" id="id_8_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/8_corazon_negro.jpg" id="id_8_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/8_diamante_rojo.jpg" id="id_8_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/8_trebol_negro.jpg" id="id_8_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/9_corazon_rojo.jpg" id="id_9_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/9_corazon_negro.jpg" id="id_9_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/9_diamante_rojo.jpg" id="id_9_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/9_trebol_negro.jpg" id="id_9_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/10_corazon_rojo.jpg" id="id_10_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/10_corazon_negro.jpg" id="id_10_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/10_diamante_rojo.jpg" id="id_10_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/10_trebol_negro.jpg" id="id_10_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/j_corazon_rojo.jpg" id="id_j_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/j_corazon_negro.jpg" id="id_j_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/j_diamante_rojo.jpg" id="id_j_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/j_trebol_negro.jpg" id="id_j_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/q_corazon_rojo.jpg" id="id_q_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/q_corazon_negro.jpg" id="id_q_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/q_diamante_rojo.jpg" id="id_q_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/q_trebol_negro.jpg" id="id_q_trebol_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/k_corazon_rojo.jpg" id="id_k_corazon_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/k_corazon_negro.jpg" id="id_k_corazon_negro" class="movil"></li>
+			<li><img src="imagen/Naipes/k_diamante_rojo.jpg" id="id_k_diamante_rojo" class="movil"></li>
+			<li><img src="imagen/Naipes/k_trebol_negro.jpg" id="id_k_trebol_negro" class="movil"></li>
+	</ul>
+	<div id="dropLocation">
+		<div id="as_corazon_rojo"></div>
+		<div id="as_corazon_negro"></div>
+		<div id="as_diamante_rojo"></div>
+		<div id="as_trebol_negro"></div>
+		<div id="dos_corazon_rojo"></div>
+		<div id="dos_corazon_negro"></div>
+		<div id="dos_diamante_rojo"></div>
+		<div id="dos_trebol_negro"></div>
+		<div id="tres_corazon_rojo"></div>
+		<div id="tres_corazon_negro"></div>		
+		<div id="tres_diamante_rojo"></div>
+		<div id="tres_trebol_negro"></div>
+		<div id="cuatro_corazon_rojo"></div>
+		<div id="cuatro_corazon_negro"></div>
+		<div id="cuatro_diamante_rojo"></div>
+		<div id="cuatro_trebol_negro"></div>
+		<div id="cinco_corazon_rojo"></div>
+		<div id="cinco_corazon_negro"></div>
+		<div id="cinco_diamante_rojo"></div>
+		<div id="cinco_trebol_negro"></div>
+		<div id="seis_corazon_rojo"></div>
+		<div id="seis_corazon_negro"></div>
+		<div id="seis_diamante_rojo"></div>
+		<div id="seis_trebol_negro"></div>
+		<div id="siete_corazon_rojo"></div>
+		<div id="siete_corazon_negro"></div>		
+		<div id="siete_diamante_rojo"></div>
+		<div id="siete_trebol_negro"></div>
+		<div id="ocho_corazon_rojo"></div>
+		<div id="ocho_corazon_negro"></div>		
+		<div id="ocho_diamante_rojo"></div>
+		<div id="ocho_trebol_negro"></div>
+		<div id="nueve_corazon_rojo"></div>
+		<div id="nueve_corazon_negro"></div>
+		<div id="nueve_diamante_rojo"></div>
+		<div id="nueve_trebol_negro"></div>
+		<div id="diez_corazon_rojo"></div>
+		<div id="diez_corazon_negro"></div>
+		<div id="diez_diamante_rojo"></div>
+		<div id="diez_trebol_negro"></div>
+		<div id="j_corazon_rojo"></div>
+		<div id="j_corazon_negro"></div>
+		<div id="j_diamante_rojo"></div>
+		<div id="j_trebol_negro"></div>
+		<div id="q_corazon_rojo"></div>
+		<div id="q_corazon_negro"></div>
+		<div id="q_diamante_rojo"></div>
+		<div id="q_trebol_negro"></div>
+		<div id="k_corazon_rojo"></div>
+		<div id="k_corazon_negro"></div>
+		<div id="k_diamante_rojo"></div>
+		<div id="k_trebol_negro"></div>
+		
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

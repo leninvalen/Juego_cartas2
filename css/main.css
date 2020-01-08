@@ -1,0 +1,11 @@
+#entorno
+{
+	/*Se utiliza este código para que se encuentre centrado*/
+	display: block;
+	margin: 0 auto;
+	
+}
+#fondo
+{
+	opacity: 0.3;
+}
